@@ -1,0 +1,91 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin:0;
+}
+
+.main-header{
+    background-image: url(images/thomas-kelley-JoH60FhTp50-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color:white;
+
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 35%;
+
+    text-align: right;
+    box-sizing: border-box;
+    padding: 10% 20px 0 0;
+}
+
+#foto-perfil{
+    border-radius: 50%;
+}
+
+.main-footer{
+    position: fixed;
+    bottom: 0;
+    right: 65%;
+    padding:10px
+}
+
+.main-content{
+    width: 65%;
+    margin-left:35%;
+
+    box-sizing: border-box;
+    padding: 30px 0 0 20px;
+}
+
+.main-content-section-works{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-content-section-works div{
+    padding: 0 50px 0 0;
+}
+
+@media screen and (max-width: 800px) {
+    .main-header{
+        height: 30%;
+        width:100%;
+
+        color:black;
+
+        position:relative;
+
+        top:none;
+        left:none;
+
+        text-align: top;
+        box-sizing: border-box;
+        padding: 0 20% 0 0;
+
+    }
+
+    .main-header h1{
+        display: none;
+    }
+
+    .main-content{
+        width: 100%;
+        margin-left:0;
+
+        box-sizing: border-box;
+        padding: 10px 0 0 20px;
+    }
+
+
+    .main-content-section-works img{
+        width: 30vw;
+        height: 15vw;
+    }
+}
