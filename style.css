@@ -54,10 +54,6 @@ body{
     max-width: 60%;
 }
 
-.main-content-section{
-    margin-top: 30px;
-}
-
 .main-content-section-works{
     display: flex;
     flex-wrap: wrap;
@@ -143,12 +139,6 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-}
-
-
-.main-content-section-obs img{
-    width: 100%;
-    border-radius: 8px;
 }
   
 @media screen and (max-width: 800px) {
